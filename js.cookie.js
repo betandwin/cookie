@@ -1,8 +1,8 @@
 /*!
  * JavaScript Cookie v2.1.0
- * https://github.com/js-cookie/js-cookie
+ * https://github.com/manideepami/cookie
  *
- * Copyright 2006, 2015 Klaus Hartl & Fagner Brack
+ * Copyright 2016 Manideep
  * Released under the MIT license
  */
 (function (factory) {
