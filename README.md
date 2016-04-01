@@ -3,6 +3,8 @@ Cookies
 
 This plugin is a mootools adaptation on how to add cookie section for your website where every browser may or maynot handle cookies.[JQuery COOKIE](https://github.com/manideepami/cookie)
 
+Source: [GreyCampus](https://www.greycampus.com)
+
 
 How to use
 ----------
