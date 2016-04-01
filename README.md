@@ -14,15 +14,24 @@ Give the path of cookie.js in your head section where you add all the javascript
 Including it on your page
 ----------
 
-```html
 <head>
   <script type="text/javascript" src="js.cookie.js"></script>
 </head>
 
 How to Use
 ----------
-
-	var CP = new Cookie(element [, options]);
+	// Showing modal form after cookie expired
+if(Cookies.get('hiddenModalShow') === undefined)
+{
+Cookies.set('hiddenModalShow', '1', { expires: 0.5/48 });
+$(window).load(function()
+{
+setTimeout(function(){
+$('#hiddenModal').modal('show');
+}, 10000);
+});
+}
+	
 ### License
 
 Copyright © Stella Morey
