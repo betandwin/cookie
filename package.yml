@@ -1,8 +1,6 @@
 name: Cookie
-author: MoreyStella
-category: Interface
-tags: [animation, canvas]
-
-#docs: http://url.to.docs
-#demo: http://url.to.demo
-#current: 0.5
+author: Stella Morey	
+category: Web Cookie
+tags: [cookie, website, website cookie]
+docs: https://github.com/manideepami/cookie
+current: v1.0

@@ -1,7 +1,7 @@
 Cookies
 ===========
 
-Plugin gives the information on how to add cookie section for your website where every browser may or maynot handle cookies.
+This plugin is a mootools adaptation on how to add cookie section for your website where every browser may or maynot handle cookies.[JQuery COOKIE](https://github.com/manideepami/cookie)
 
 
 How to use
@@ -9,24 +9,20 @@ How to use
 
 Adding the source code to new file and save the file as cookie.js
 Give the path of cookie.js in your head section where you add all the javascript files.
+Including it on your page
+----------
 
-It often includes code snippets, which are just indented pieces of text:
+```html
+<head>
+  <script type="text/javascript" src="js.cookie.js"></script>
+</head>
 
-	var script = new MyScript()
-	script.doSomething();
+How to Use
+----------
 
-Syntax highlighting will be done automatically for you.
+	var CP = new Cookie(element [, options]);
+### License
 
+Copyright © Stella Morey
 
-Arbitrary section
------------------
-
-This is an arbitrary section. You can have as many of these as you want.
-Some arbitrary section examples:
-
-* FAQ
-* Notes
-* Misc
-* Known issues
-
-The name is up to you, but remember to keep it meaningful and simple. Arbitrary sections are always optional.
+Licensed under the MIT license.
