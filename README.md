@@ -21,16 +21,16 @@ Including it on your page
 How to Use
 ----------
 	// Showing modal form after cookie expired
-if(Cookies.get('hiddenModalShow') === undefined)
-{
-Cookies.set('hiddenModalShow', '1', { expires: 0.5/48 });
-$(window).load(function()
-{
-setTimeout(function(){
-$('#hiddenModal').modal('show');
-}, 10000);
-});
-}
+	//if(Cookies.get('hiddenModalShow') === undefined)
+	//{
+	//Cookies.set('hiddenModalShow', '1', { expires: 0.5/48 });
+	//$(window).load(function()
+	//{
+	//setTimeout(function(){
+	//$('#hiddenModal').modal('show');
+	//}, 10000);
+	//});
+	//}
 	
 ### License
 
