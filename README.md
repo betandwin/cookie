@@ -20,9 +20,14 @@ Including it on your page
 
 How to Use
 ----------
-	// Showing modal form after cookie expired
+	To set a cookie
+	//Showing modal form after cookie expired
 	//if(Cookies.get('hiddenModalShow') === undefined)
 	//{
+		
+		Syntax
+		Cookies.set('name', 'value',{expires:value})
+
 	//Cookies.set('hiddenModalShow', '1', { expires: 0.5/48 });
 	//$(window).load(function()
 	//{
